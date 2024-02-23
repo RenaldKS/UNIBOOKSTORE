@@ -1,0 +1,83 @@
+.container {
+  font-family: "Times New Roman", Times, serif;
+  width: 65%;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: rgb(241, 241, 241);
+  opacity: 0.97;
+}
+.container-form {
+  font-family: "Times New Roman", Times, serif;
+  width: 20%;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: rgb(241, 241, 241);
+  opacity: 0.97;
+}
+
+body {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background-image: url("./img/bg.jpg");
+  text-align: center;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+table,
+th,
+td {
+  border: 1px solid black;
+  padding: 8px;
+  text-align: center;
+}
+.noborder {
+  border: none;
+  padding: 8px;
+  text-align: center;
+}
+select {
+  width: 60%;
+  padding: 6px;
+  box-sizing: border-box;
+}
+.tambah {
+  float: right;
+  margin-right: 30px;
+}
+th {
+  background-color: #adadad;
+}
+input[type="text"],
+input[type="submit"] {
+  padding: 6px;
+  margin-top: 10px;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+a {
+  color: inherit; /* Mewarisi warna teks dari parent */
+  text-decoration: none; /* Menghapus garis bawah default */
+}
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
